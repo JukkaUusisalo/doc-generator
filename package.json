@@ -1,0 +1,21 @@
+{
+  "name": "doc-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/tsdoc": "^0.14.2",
+    "@microsoft/tsdoc-config": "^0.16.2",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2"
+  }
+}
